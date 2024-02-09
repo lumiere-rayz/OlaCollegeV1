@@ -2812,3 +2812,467 @@ INFO  2024-02-09 13:04:23,015 [29   ] .Mvc.Infrastructure.ObjectResultExecutor -
 INFO  2024-02-09 13:04:23,033 [29   ] c.Infrastructure.ControllerActionInvoker - Executed action OlaCollegeV1.Web.Host.Controllers.AntiForgeryController.SetCookie (OlaCollegeV1.Web.Host) in 279.2636ms
 INFO  2024-02-09 13:04:23,038 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OlaCollegeV1.Web.Host.Controllers.AntiForgeryController.SetCookie (OlaCollegeV1.Web.Host)'
 INFO  2024-02-09 13:04:23,051 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - - 200 101 application/json;+charset=utf-8 341.8097ms
+DEBUG 2024-02-09 13:08:30,615 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-02-09 13:08:30,998 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2024-02-09 13:08:31,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OlaCollegeV1.Web.Host.Startup.OlaCollegeV1WebHostModule, OlaCollegeV1.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-09 13:08:31,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OlaCollegeV1.OlaCollegeV1WebCoreModule, OlaCollegeV1.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-09 13:08:31,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OlaCollegeV1.OlaCollegeV1ApplicationModule, OlaCollegeV1.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-09 13:08:31,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OlaCollegeV1.OlaCollegeV1CoreModule, OlaCollegeV1.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-09 13:08:31,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-09 13:08:31,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-09 13:08:31,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-09 13:08:31,019 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-09 13:08:31,020 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OlaCollegeV1.EntityFrameworkCore.OlaCollegeV1EntityFrameworkModule, OlaCollegeV1.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-09 13:08:31,020 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-09 13:08:31,021 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-09 13:08:31,022 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-09 13:08:31,023 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-09 13:08:31,023 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-09 13:08:31,028 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2024-02-09 13:08:31,278 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-09 13:08:31,279 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-09 13:08:31,279 [1    ] o.Configuration.LanguageManagementConfig - Converted OlaCollegeV1 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-09 13:08:31,279 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-09 13:08:32,250 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OlaCollegeV1.EntityFrameworkCore.OlaCollegeV1DbContext, OlaCollegeV1.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-09 13:08:32,645 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-02-09 13:08:32,745 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-02-09 13:08:32,758 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-02-09 13:08:32,768 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OlaCollegeV1
+DEBUG 2024-02-09 13:08:32,774 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-02-09 13:08:32,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2024-02-09 13:08:32,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OlaCollegeV1.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2024-02-09 13:08:32,938 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OlaCollegeV1.Users.Dto.CreateUserDto
+DEBUG 2024-02-09 13:08:32,938 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OlaCollegeV1.Users.Dto.UserDto
+DEBUG 2024-02-09 13:08:32,939 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OlaCollegeV1.Students.Dto.CreateStudentDto
+DEBUG 2024-02-09 13:08:32,939 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OlaCollegeV1.Students.Dto.StudentDto
+DEBUG 2024-02-09 13:08:32,940 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OlaCollegeV1.Students.Dto.UpdateStudentDto
+DEBUG 2024-02-09 13:08:32,940 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OlaCollegeV1.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-02-09 13:08:32,940 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OlaCollegeV1.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-02-09 13:08:32,940 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OlaCollegeV1.Roles.Dto.PermissionDto
+DEBUG 2024-02-09 13:08:32,940 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OlaCollegeV1.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-02-09 13:08:32,940 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OlaCollegeV1.MultiTenancy.Dto.TenantDto
+DEBUG 2024-02-09 13:08:32,940 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OlaCollegeV1.Colleges.Dto.CollegeDto
+DEBUG 2024-02-09 13:08:32,940 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OlaCollegeV1.Colleges.Dto.CreateCollegeDto
+DEBUG 2024-02-09 13:08:32,940 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OlaCollegeV1.Colleges.Dto.UpdateCollegeDto
+WARN  2024-02-09 13:08:37,143 [1    ] oft.EntityFrameworkCore.Model.Validation - Entity 'Edition' has a global query filter defined and is the required end of a relationship with the entity 'EditionFeatureSetting'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+INFO  2024-02-09 13:08:37,804 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:08:40,067 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (232ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name"
+FROM "AbpEditions" AS a
+WHERE a."Name" = 'Standard'
+LIMIT 1
+INFO  2024-02-09 13:08:40,468 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (36ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" = @__language_TenantId_0) AND (a."Name" = @__language_Name_1))
+INFO  2024-02-09 13:08:40,486 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" = @__language_TenantId_0) AND (a."Name" = @__language_Name_1))
+INFO  2024-02-09 13:08:40,494 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" = @__language_TenantId_0) AND (a."Name" = @__language_Name_1))
+INFO  2024-02-09 13:08:40,500 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" = @__language_TenantId_0) AND (a."Name" = @__language_Name_1))
+INFO  2024-02-09 13:08:40,508 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" = @__language_TenantId_0) AND (a."Name" = @__language_Name_1))
+INFO  2024-02-09 13:08:40,515 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" = @__language_TenantId_0) AND (a."Name" = @__language_Name_1))
+INFO  2024-02-09 13:08:40,524 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" = @__language_TenantId_0) AND (a."Name" = @__language_Name_1))
+INFO  2024-02-09 13:08:40,529 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" = @__language_TenantId_0) AND (a."Name" = @__language_Name_1))
+INFO  2024-02-09 13:08:40,540 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" = @__language_TenantId_0) AND (a."Name" = @__language_Name_1))
+INFO  2024-02-09 13:08:40,545 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" = @__language_TenantId_0) AND (a."Name" = @__language_Name_1))
+INFO  2024-02-09 13:08:40,554 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" = @__language_TenantId_0) AND (a."Name" = @__language_Name_1))
+INFO  2024-02-09 13:08:40,560 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" = @__language_TenantId_0) AND (a."Name" = @__language_Name_1))
+INFO  2024-02-09 13:08:40,570 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_TenantId_0='?' (DbType = Int32), @__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" = @__language_TenantId_0) AND (a."Name" = @__language_Name_1))
+INFO  2024-02-09 13:08:40,605 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE ((a."TenantId" IS NULL)) AND (a."Name" = 'Admin')
+LIMIT 1
+INFO  2024-02-09 13:08:40,770 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE (a."Discriminator" = 'RolePermissionSetting') AND (((a."TenantId" IS NULL)) AND (a."RoleId" = @__adminRoleForHost_Id_0))
+INFO  2024-02-09 13:08:40,805 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE ((a."TenantId" IS NULL)) AND (a."UserName" = 'admin')
+LIMIT 1
+INFO  2024-02-09 13:08:40,977 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__name_0='?', @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND (a."TenantId" = @__tenantId_1)) AND ((a."UserId" IS NULL)))
+INFO  2024-02-09 13:08:40,985 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__name_0='?', @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND (a."TenantId" = @__tenantId_1)) AND ((a."UserId" IS NULL)))
+INFO  2024-02-09 13:08:40,993 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__name_0='?', @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND (a."TenantId" = @__tenantId_1)) AND ((a."UserId" IS NULL)))
+INFO  2024-02-09 13:08:41,181 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE a."TenancyName" = 'Default'
+LIMIT 1
+INFO  2024-02-09 13:08:41,267 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE (a."TenantId" = @___tenantId_0) AND (a."Name" = 'Admin')
+LIMIT 1
+INFO  2024-02-09 13:08:41,292 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE (a."Discriminator" = 'RolePermissionSetting') AND ((a."TenantId" = @___tenantId_0) AND (a."RoleId" = @__adminRole_Id_1))
+INFO  2024-02-09 13:08:41,310 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE (a."TenantId" = @___tenantId_0) AND (a."UserName" = 'admin')
+LIMIT 1
+INFO  2024-02-09 13:08:41,541 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:08:41,616 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (20ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."Icon", a."IsDeleted", a."IsDisabled", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId"
+FROM "AbpLanguages" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR ((a."TenantId" IS NULL)))
+INFO  2024-02-09 13:08:41,742 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:08:41,779 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (a."Id" = @__p_0)
+LIMIT 1
+INFO  2024-02-09 13:08:41,807 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."Icon", a."IsDeleted", a."IsDisabled", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId"
+FROM "AbpLanguages" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR (a."TenantId" = @__ef_filter__CurrentTenantId_2))
+INFO  2024-02-09 13:08:41,916 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:08:41,938 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId", a."UserId", a."Value"
+FROM "AbpSettings" AS a
+WHERE (@__ef_filter__p_0 OR (a."TenantId" = @__ef_filter__CurrentTenantId_1)) AND (((a."UserId" IS NULL)) AND (a."TenantId" = @__tenantId_1))
+INFO  2024-02-09 13:08:42,031 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+INFO  2024-02-09 13:08:42,608 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2024-02-09 13:08:42,627 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2024-02-09 13:08:42,643 [1    ] Microsoft.Hosting.Lifetime               - Content root path: C:\Users\olabisioa\Documents\Wimtach\7.3.0\aspnet-core\src\OlaCollegeV1.Web.Host
+INFO  2024-02-09 13:08:42,718 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - -
+INFO  2024-02-09 13:08:42,718 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+INFO  2024-02-09 13:08:42,978 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OlaCollegeV1.Web.Host.Controllers.HomeController.Index (OlaCollegeV1.Web.Host)'
+INFO  2024-02-09 13:08:43,051 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OlaCollegeV1.Web.Host.Controllers.HomeController (OlaCollegeV1.Web.Host).
+INFO  2024-02-09 13:08:43,230 [12   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:08:43,735 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 1018.0526ms
+INFO  2024-02-09 13:08:43,950 [16   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (59ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2024-02-09 13:08:44,217 [17   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2024-02-09 13:08:44,254 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action OlaCollegeV1.Web.Host.Controllers.HomeController.Index (OlaCollegeV1.Web.Host) in 1178.625ms
+INFO  2024-02-09 13:08:44,268 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OlaCollegeV1.Web.Host.Controllers.HomeController.Index (OlaCollegeV1.Web.Host)'
+INFO  2024-02-09 13:08:44,283 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - - - 302 - - 1581.0378ms
+INFO  2024-02-09 13:08:44,299 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+INFO  2024-02-09 13:08:44,408 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 65.8744ms
+INFO  2024-02-09 13:08:44,453 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - -
+INFO  2024-02-09 13:08:44,485 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 69.1827ms
+INFO  2024-02-09 13:08:44,851 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - -
+INFO  2024-02-09 13:08:45,180 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 250.4723ms
+INFO  2024-02-09 13:08:45,863 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - -
+INFO  2024-02-09 13:08:45,868 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OlaCollegeV1.Web.Host.Controllers.AntiForgeryController.SetCookie (OlaCollegeV1.Web.Host)'
+INFO  2024-02-09 13:08:45,883 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller OlaCollegeV1.Web.Host.Controllers.AntiForgeryController (OlaCollegeV1.Web.Host).
+INFO  2024-02-09 13:08:45,905 [5    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:08:45,942 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2024-02-09 13:08:45,978 [17   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-02-09 13:08:46,185 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+INFO  2024-02-09 13:08:46,625 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action OlaCollegeV1.Web.Host.Controllers.AntiForgeryController.SetCookie (OlaCollegeV1.Web.Host) in 629.0237ms
+INFO  2024-02-09 13:08:46,758 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OlaCollegeV1.Web.Host.Controllers.AntiForgeryController.SetCookie (OlaCollegeV1.Web.Host)'
+INFO  2024-02-09 13:08:46,835 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - - 200 101 application/json;+charset=utf-8 908.7875ms
+INFO  2024-02-09 13:08:47,157 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 941.5540ms
+INFO  2024-02-09 13:08:47,891 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - -
+INFO  2024-02-09 13:08:47,899 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 7.3620ms
+INFO  2024-02-09 13:08:47,903 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - -
+INFO  2024-02-09 13:08:48,046 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 123.0761ms
+INFO  2024-02-09 13:08:48,710 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - -
+INFO  2024-02-09 13:08:48,715 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OlaCollegeV1.Web.Host.Controllers.AntiForgeryController.SetCookie (OlaCollegeV1.Web.Host)'
+INFO  2024-02-09 13:08:48,730 [17   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller OlaCollegeV1.Web.Host.Controllers.AntiForgeryController (OlaCollegeV1.Web.Host).
+INFO  2024-02-09 13:08:48,746 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:08:48,779 [5    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2024-02-09 13:08:48,802 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-02-09 13:08:48,820 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action OlaCollegeV1.Web.Host.Controllers.AntiForgeryController.SetCookie (OlaCollegeV1.Web.Host) in 72.6644ms
+INFO  2024-02-09 13:08:48,824 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OlaCollegeV1.Web.Host.Controllers.AntiForgeryController.SetCookie (OlaCollegeV1.Web.Host)'
+INFO  2024-02-09 13:08:48,847 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - - 200 101 application/json;+charset=utf-8 119.4199ms
+INFO  2024-02-09 13:08:48,965 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+INFO  2024-02-09 13:08:48,998 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 32.1974ms
+INFO  2024-02-09 13:09:13,587 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate application/json 54
+INFO  2024-02-09 13:09:13,614 [17   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2024-02-09 13:09:13,623 [17   ] pNetCore.Cors.Infrastructure.CorsService - Request origin https://localhost:44311 does not have permission to access the resource.
+INFO  2024-02-09 13:09:13,644 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OlaCollegeV1.Controllers.TokenAuthController.Authenticate (OlaCollegeV1.Web.Core)'
+INFO  2024-02-09 13:09:13,784 [17   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[OlaCollegeV1.Models.TokenAuth.AuthenticateResultModel] Authenticate(OlaCollegeV1.Models.TokenAuth.AuthenticateModel) on controller OlaCollegeV1.Controllers.TokenAuthController (OlaCollegeV1.Web.Core).
+INFO  2024-02-09 13:09:14,289 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:09:14,351 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (a."TenancyName" = 'Default')
+LIMIT 1
+INFO  2024-02-09 13:09:14,583 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32), @__normalizedUserNameOrEmailAddress_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE ((@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR (a."TenantId" = @__ef_filter__CurrentTenantId_2))) AND ((a."NormalizedUserName" = @__normalizedUserNameOrEmailAddress_0) OR (a."NormalizedEmailAddress" = @__normalizedUserNameOrEmailAddress_0))
+LIMIT 1
+INFO  2024-02-09 13:09:14,992 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (47ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ClaimType", a."ClaimValue", a."CreationTime", a."CreatorUserId", a."TenantId", a."UserId"
+FROM "AbpUserClaims" AS a
+WHERE (@__ef_filter__p_0 OR (a."TenantId" = @__ef_filter__CurrentTenantId_1)) AND (a."UserId" = @__p_0)
+INFO  2024-02-09 13:09:15,154 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate application/json 54
+INFO  2024-02-09 13:09:15,162 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2024-02-09 13:09:15,182 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin https://localhost:44311 does not have permission to access the resource.
+INFO  2024-02-09 13:09:15,196 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OlaCollegeV1.Controllers.TokenAuthController.Authenticate (OlaCollegeV1.Web.Core)'
+INFO  2024-02-09 13:09:15,206 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[OlaCollegeV1.Models.TokenAuth.AuthenticateResultModel] Authenticate(OlaCollegeV1.Models.TokenAuth.AuthenticateModel) on controller OlaCollegeV1.Controllers.TokenAuthController (OlaCollegeV1.Web.Core).
+INFO  2024-02-09 13:09:15,219 [12   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:09:15,292 [31   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (24ms) [Parameters=[@__ef_filter__p_2='?' (DbType = Boolean), @__ef_filter__p_3='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_4='?' (DbType = Int32), @__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT t."Name"
+FROM "AbpUserRoles" AS a
+INNER JOIN (
+    SELECT a0."Id", a0."Name"
+    FROM "AbpRoles" AS a0
+    WHERE (@__ef_filter__p_2 OR NOT (a0."IsDeleted")) AND (@__ef_filter__p_3 OR (a0."TenantId" = @__ef_filter__CurrentTenantId_4))
+) AS t ON a."RoleId" = t."Id"
+WHERE (@__ef_filter__p_0 OR (a."TenantId" = @__ef_filter__CurrentTenantId_1)) AND (a."UserId" = @__user_Id_0)
+INFO  2024-02-09 13:09:15,327 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__ef_filter__p_3='?' (DbType = Boolean), @__ef_filter__p_4='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_5='?' (DbType = Int32), @__ef_filter__p_6='?' (DbType = Boolean), @__ef_filter__p_7='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_8='?' (DbType = Int32), @__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT t0."Name"
+FROM "AbpUserOrganizationUnits" AS a
+INNER JOIN (
+    SELECT a0."OrganizationUnitId", a0."RoleId"
+    FROM "AbpOrganizationUnitRoles" AS a0
+    WHERE (@__ef_filter__p_3 OR NOT (a0."IsDeleted")) AND (@__ef_filter__p_4 OR (a0."TenantId" = @__ef_filter__CurrentTenantId_5))
+) AS t ON a."OrganizationUnitId" = t."OrganizationUnitId"
+INNER JOIN (
+    SELECT a1."Id", a1."Name"
+    FROM "AbpRoles" AS a1
+    WHERE (@__ef_filter__p_6 OR NOT (a1."IsDeleted")) AND (@__ef_filter__p_7 OR (a1."TenantId" = @__ef_filter__CurrentTenantId_8))
+) AS t0 ON t."RoleId" = t0."Id"
+WHERE ((@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR (a."TenantId" = @__ef_filter__CurrentTenantId_2))) AND (a."UserId" = @__user_Id_0)
+INFO  2024-02-09 13:09:15,401 [12   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32), @__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE ((@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR (a."TenantId" = @__ef_filter__CurrentTenantId_2))) AND (a."NormalizedName" = @__normalizedName_0)
+LIMIT 1
+INFO  2024-02-09 13:09:15,440 [32   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (a."TenancyName" = 'Default')
+LIMIT 1
+INFO  2024-02-09 13:09:15,456 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32), @__normalizedUserNameOrEmailAddress_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE ((@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR (a."TenantId" = @__ef_filter__CurrentTenantId_2))) AND ((a."NormalizedUserName" = @__normalizedUserNameOrEmailAddress_0) OR (a."NormalizedEmailAddress" = @__normalizedUserNameOrEmailAddress_0))
+LIMIT 1
+INFO  2024-02-09 13:09:15,459 [30   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ClaimType", a."ClaimValue", a."CreationTime", a."CreatorUserId", a."RoleId", a."TenantId"
+FROM "AbpRoleClaims" AS a
+WHERE (@__ef_filter__p_0 OR (a."TenantId" = @__ef_filter__CurrentTenantId_1)) AND (a."RoleId" = @__p_0)
+INFO  2024-02-09 13:09:15,487 [30   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ClaimType", a."ClaimValue", a."CreationTime", a."CreatorUserId", a."TenantId", a."UserId"
+FROM "AbpUserClaims" AS a
+WHERE (@__ef_filter__p_0 OR (a."TenantId" = @__ef_filter__CurrentTenantId_1)) AND (a."UserId" = @__p_0)
+INFO  2024-02-09 13:09:15,498 [30   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__ef_filter__p_2='?' (DbType = Boolean), @__ef_filter__p_3='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_4='?' (DbType = Int32), @__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT t."Name"
+FROM "AbpUserRoles" AS a
+INNER JOIN (
+    SELECT a0."Id", a0."Name"
+    FROM "AbpRoles" AS a0
+    WHERE (@__ef_filter__p_2 OR NOT (a0."IsDeleted")) AND (@__ef_filter__p_3 OR (a0."TenantId" = @__ef_filter__CurrentTenantId_4))
+) AS t ON a."RoleId" = t."Id"
+WHERE (@__ef_filter__p_0 OR (a."TenantId" = @__ef_filter__CurrentTenantId_1)) AND (a."UserId" = @__user_Id_0)
+INFO  2024-02-09 13:09:15,508 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__ef_filter__p_3='?' (DbType = Boolean), @__ef_filter__p_4='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_5='?' (DbType = Int32), @__ef_filter__p_6='?' (DbType = Boolean), @__ef_filter__p_7='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_8='?' (DbType = Int32), @__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT t0."Name"
+FROM "AbpUserOrganizationUnits" AS a
+INNER JOIN (
+    SELECT a0."OrganizationUnitId", a0."RoleId"
+    FROM "AbpOrganizationUnitRoles" AS a0
+    WHERE (@__ef_filter__p_3 OR NOT (a0."IsDeleted")) AND (@__ef_filter__p_4 OR (a0."TenantId" = @__ef_filter__CurrentTenantId_5))
+) AS t ON a."OrganizationUnitId" = t."OrganizationUnitId"
+INNER JOIN (
+    SELECT a1."Id", a1."Name"
+    FROM "AbpRoles" AS a1
+    WHERE (@__ef_filter__p_6 OR NOT (a1."IsDeleted")) AND (@__ef_filter__p_7 OR (a1."TenantId" = @__ef_filter__CurrentTenantId_8))
+) AS t0 ON t."RoleId" = t0."Id"
+WHERE ((@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR (a."TenantId" = @__ef_filter__CurrentTenantId_2))) AND (a."UserId" = @__user_Id_0)
+INFO  2024-02-09 13:09:15,516 [31   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32), @__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE ((@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR (a."TenantId" = @__ef_filter__CurrentTenantId_2))) AND (a."NormalizedName" = @__normalizedName_0)
+LIMIT 1
+INFO  2024-02-09 13:09:15,529 [31   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ClaimType", a."ClaimValue", a."CreationTime", a."CreatorUserId", a."RoleId", a."TenantId"
+FROM "AbpRoleClaims" AS a
+WHERE (@__ef_filter__p_0 OR (a."TenantId" = @__ef_filter__CurrentTenantId_1)) AND (a."RoleId" = @__p_0)
+INFO  2024-02-09 13:09:15,548 [31   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:09:15,556 [29   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:09:15,705 [32   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (22ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = Int16), @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = Int64), @p8='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpUserLoginAttempts" ("BrowserInfo", "ClientIpAddress", "ClientName", "CreationTime", "Result", "TenancyName", "TenantId", "UserId", "UserNameOrEmailAddress")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING "Id";
+INFO  2024-02-09 13:09:15,710 [31   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (22ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = Int16), @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = Int64), @p8='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpUserLoginAttempts" ("BrowserInfo", "ClientIpAddress", "ClientName", "CreationTime", "Result", "TenancyName", "TenantId", "UserId", "UserNameOrEmailAddress")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING "Id";
+INFO  2024-02-09 13:09:15,930 [30   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:09:15,933 [32   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:09:15,946 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2024-02-09 13:09:15,950 [32   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2024-02-09 13:09:15,959 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-02-09 13:09:15,963 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-02-09 13:09:15,973 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action OlaCollegeV1.Controllers.TokenAuthController.Authenticate (OlaCollegeV1.Web.Core) in 762.0088ms
+INFO  2024-02-09 13:09:15,976 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action OlaCollegeV1.Controllers.TokenAuthController.Authenticate (OlaCollegeV1.Web.Core) in 2184.5639ms
+INFO  2024-02-09 13:09:15,979 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OlaCollegeV1.Controllers.TokenAuthController.Authenticate (OlaCollegeV1.Web.Core)'
+INFO  2024-02-09 13:09:15,982 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OlaCollegeV1.Controllers.TokenAuthController.Authenticate (OlaCollegeV1.Web.Core)'
+INFO  2024-02-09 13:09:15,987 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate application/json 54 - 200 2225 application/json;+charset=utf-8 831.0368ms
+INFO  2024-02-09 13:09:15,993 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate application/json 54 - 200 2225 application/json;+charset=utf-8 2399.3143ms
+INFO  2024-02-09 13:09:16,044 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+INFO  2024-02-09 13:09:16,153 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 99.4998ms
+INFO  2024-02-09 13:09:16,163 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - -
+INFO  2024-02-09 13:09:16,178 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 6.7702ms
+INFO  2024-02-09 13:09:16,371 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - -
+INFO  2024-02-09 13:09:16,639 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 179.3159ms
+INFO  2024-02-09 13:09:16,650 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - -
+INFO  2024-02-09 13:09:17,197 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+INFO  2024-02-09 13:09:17,582 [29   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:09:17,609 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__userId_0='?' (DbType = Int64), @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId", a."UserId", a."Value"
+FROM "AbpSettings" AS a
+WHERE (@__ef_filter__p_0 OR (a."TenantId" = @__ef_filter__CurrentTenantId_1)) AND ((a."UserId" = @__userId_0) AND (a."TenantId" = @__tenantId_1))
+INFO  2024-02-09 13:09:17,692 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OlaCollegeV1.Web.Host.Controllers.AntiForgeryController.SetCookie (OlaCollegeV1.Web.Host)'
+INFO  2024-02-09 13:09:17,754 [29   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller OlaCollegeV1.Web.Host.Controllers.AntiForgeryController (OlaCollegeV1.Web.Host).
+INFO  2024-02-09 13:09:17,782 [29   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:09:17,816 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 572.1832ms
+INFO  2024-02-09 13:09:17,879 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2024-02-09 13:09:17,907 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-02-09 13:09:17,917 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action OlaCollegeV1.Web.Host.Controllers.AntiForgeryController.SetCookie (OlaCollegeV1.Web.Host) in 154.3016ms
+INFO  2024-02-09 13:09:17,926 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OlaCollegeV1.Web.Host.Controllers.AntiForgeryController.SetCookie (OlaCollegeV1.Web.Host)'
+INFO  2024-02-09 13:09:17,931 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - - 200 101 application/json;+charset=utf-8 1281.6212ms
+INFO  2024-02-09 13:09:30,506 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Student/GetAll - -
+INFO  2024-02-09 13:09:30,514 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OlaCollegeV1.Students.StudentAppService.GetAllAsync (OlaCollegeV1.Application)'
+INFO  2024-02-09 13:09:30,532 [29   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[OlaCollegeV1.Students.Dto.StudentDto]] GetAllAsync(OlaCollegeV1.Students.Dto.PagedStudentResultRequestDto) on controller OlaCollegeV1.Students.StudentAppService (OlaCollegeV1.Application).
+INFO  2024-02-09 13:09:31,213 [29   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:09:31,274 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (14ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32), @__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE ((@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR (a."TenantId" = @__ef_filter__CurrentTenantId_2))) AND (a."Id" = @__p_0)
+LIMIT 1
+INFO  2024-02-09 13:09:31,338 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_2='?' (DbType = Boolean), @__ef_filter__p_3='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_4='?' (DbType = Int32), @__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT t."Name"
+FROM "AbpUserRoles" AS a
+INNER JOIN (
+    SELECT a0."Id", a0."Name"
+    FROM "AbpRoles" AS a0
+    WHERE (@__ef_filter__p_2 OR NOT (a0."IsDeleted")) AND (@__ef_filter__p_3 OR (a0."TenantId" = @__ef_filter__CurrentTenantId_4))
+) AS t ON a."RoleId" = t."Id"
+WHERE (@__ef_filter__p_0 OR (a."TenantId" = @__ef_filter__CurrentTenantId_1)) AND (a."UserId" = @__user_Id_0)
+INFO  2024-02-09 13:09:31,359 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@__ef_filter__p_3='?' (DbType = Boolean), @__ef_filter__p_4='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_5='?' (DbType = Int32), @__ef_filter__p_6='?' (DbType = Boolean), @__ef_filter__p_7='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_8='?' (DbType = Int32), @__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT t0."Name"
+FROM "AbpUserOrganizationUnits" AS a
+INNER JOIN (
+    SELECT a0."OrganizationUnitId", a0."RoleId"
+    FROM "AbpOrganizationUnitRoles" AS a0
+    WHERE (@__ef_filter__p_3 OR NOT (a0."IsDeleted")) AND (@__ef_filter__p_4 OR (a0."TenantId" = @__ef_filter__CurrentTenantId_5))
+) AS t ON a."OrganizationUnitId" = t."OrganizationUnitId"
+INNER JOIN (
+    SELECT a1."Id", a1."Name"
+    FROM "AbpRoles" AS a1
+    WHERE (@__ef_filter__p_6 OR NOT (a1."IsDeleted")) AND (@__ef_filter__p_7 OR (a1."TenantId" = @__ef_filter__CurrentTenantId_8))
+) AS t0 ON t."RoleId" = t0."Id"
+WHERE ((@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR (a."TenantId" = @__ef_filter__CurrentTenantId_2))) AND (a."UserId" = @__user_Id_0)
+INFO  2024-02-09 13:09:31,378 [32   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32), @__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE ((@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR (a."TenantId" = @__ef_filter__CurrentTenantId_2))) AND (a."NormalizedName" = @__normalizedName_0)
+LIMIT 1
+INFO  2024-02-09 13:09:31,424 [16   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (12ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."Discriminator", a."IsGranted", a."Name", a."TenantId", a."UserId"
+FROM "AbpPermissions" AS a
+WHERE ((a."Discriminator" = 'UserPermissionSetting') AND (@__ef_filter__p_0 OR (a."TenantId" = @__ef_filter__CurrentTenantId_1))) AND (a."UserId" = @__userId_0)
+INFO  2024-02-09 13:09:31,490 [28   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE ((@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR (a."TenantId" = @__ef_filter__CurrentTenantId_2))) AND (a."Id" = @__p_0)
+LIMIT 1
+INFO  2024-02-09 13:09:31,539 [16   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."Discriminator", a."IsGranted", a."Name", a."TenantId", a."RoleId"
+FROM "AbpPermissions" AS a
+WHERE ((a."Discriminator" = 'RolePermissionSetting') AND (@__ef_filter__p_0 OR (a."TenantId" = @__ef_filter__CurrentTenantId_1))) AND (a."RoleId" = @__roleId_0)
+INFO  2024-02-09 13:09:31,683 [16   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (18ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Students" AS s
+WHERE @__ef_filter__p_0 OR NOT (s."IsDeleted")
+INFO  2024-02-09 13:09:32,592 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT s."Id", s."Address", s."CollegeID", s."CreationTime", s."CreatorUserId", s."DeleterUserId", s."DeletionTime", s."DoB", s."FirstName", s."IsActive", s."IsDeleted", s."LastModificationTime", s."LastModifierUserId", s."LastName", s."ProgramName"
+FROM "Students" AS s
+WHERE @__ef_filter__p_0 OR NOT (s."IsDeleted")
+ORDER BY s."Id" DESC
+LIMIT @__p_1 OFFSET @__p_0
+INFO  2024-02-09 13:09:32,708 [18   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'OlaCollegeV1DbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2024-02-09 13:09:32,720 [32   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2024-02-09 13:09:32,742 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-02-09 13:09:32,813 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action OlaCollegeV1.Students.StudentAppService.GetAllAsync (OlaCollegeV1.Application) in 2277.0388ms
+INFO  2024-02-09 13:09:32,816 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OlaCollegeV1.Students.StudentAppService.GetAllAsync (OlaCollegeV1.Application)'
+INFO  2024-02-09 13:09:32,824 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Student/GetAll - - - 200 367 application/json;+charset=utf-8 2315.9439ms
