@@ -25,6 +25,8 @@ namespace OlaCollegeV1.Models
 
         public string DoB { get; set; }
 
+        public int CollegeID { get; set; }
+
         public bool IsActive { get; set; }
 
     }
