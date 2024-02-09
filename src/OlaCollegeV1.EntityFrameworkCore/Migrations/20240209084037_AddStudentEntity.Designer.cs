@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using OlaCollegeV1.EntityFrameworkCore;
@@ -11,9 +12,10 @@ using OlaCollegeV1.EntityFrameworkCore;
 namespace OlaCollegeV1.Migrations
 {
     [DbContext(typeof(OlaCollegeV1DbContext))]
-    partial class OlaCollegeV1DbContextModelSnapshot : ModelSnapshot
+    [Migration("20240209084037_AddStudentEntity")]
+    partial class AddStudentEntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

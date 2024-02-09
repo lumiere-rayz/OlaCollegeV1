@@ -3,6 +3,7 @@ using Abp.Zero.EntityFrameworkCore;
 using OlaCollegeV1.Authorization.Roles;
 using OlaCollegeV1.Authorization.Users;
 using OlaCollegeV1.MultiTenancy;
+using OlaCollegeV1.Models;
 
 namespace OlaCollegeV1.EntityFrameworkCore
 {
@@ -23,5 +24,6 @@ namespace OlaCollegeV1.EntityFrameworkCore
                 .Property(p => p.Value)
                 .HasMaxLength(100); // any integer that is smaller than 10485760
         }
+        public virtual DbSet<Student> Students { get; set; }
     }
 }
