@@ -13,7 +13,6 @@ using Abp.Castle.Logging.Log4Net;
 using Abp.Extensions;
 using OlaCollegeV1.Configuration;
 using OlaCollegeV1.Identity;
-using Abp.AspNetCore.SignalR.Hubs;
 using Abp.Dependency;
 using Abp.Json;
 using Microsoft.Extensions.Hosting;
@@ -54,7 +53,6 @@ namespace OlaCollegeV1.Web.Host.Startup
             IdentityRegistrar.Register(services);
             AuthConfigurer.Configure(services, _appConfiguration);
 
-            services.AddSignalR();
 
             // Configure CORS for angular2 UI
             services.AddCors(
@@ -106,7 +104,6 @@ namespace OlaCollegeV1.Web.Host.Startup
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapHub<AbpCommonHub>("/signalr");
                 endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapControllerRoute("defaultWithArea", "{area}/{controller=Home}/{action=Index}/{id?}");
             });
