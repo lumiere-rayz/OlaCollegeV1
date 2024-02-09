@@ -15,7 +15,7 @@ namespace OlaCollegeV1.Models
             this.IsActive = true;
             this.CreationTime = DateTime.Now;
         }
-        public int Id { get; set; }
+        public string CollegeID { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
         public string Description { get; set; }
