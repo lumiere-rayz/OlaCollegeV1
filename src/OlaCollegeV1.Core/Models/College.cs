@@ -15,7 +15,6 @@ namespace OlaCollegeV1.Models
             this.IsActive = true;
             this.CreationTime = DateTime.Now;
         }
-        public string CollegeID { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
         public string Description { get; set; }
@@ -23,6 +22,9 @@ namespace OlaCollegeV1.Models
         public double GPSLongitude { get; set; }
         public string ContactEmail { get; set; }
         public bool IsActive { get; set; }
+
+        // Navigation property
+        public virtual ICollection<Student> Students { get; set; }
 
     }
 }

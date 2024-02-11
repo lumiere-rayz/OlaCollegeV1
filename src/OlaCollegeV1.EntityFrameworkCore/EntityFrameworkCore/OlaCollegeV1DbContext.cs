@@ -23,6 +23,10 @@ namespace OlaCollegeV1.EntityFrameworkCore
             modelBuilder.Entity<Abp.Localization.ApplicationLanguageText>()
                 .Property(p => p.Value)
                 .HasMaxLength(100); // any integer that is smaller than 10485760
+            modelBuilder.Entity<College>()
+            .HasMany(c => c.Students)
+            .WithOne(s => s.College)
+            .HasForeignKey(s => s.CollegeId);
         }
         public virtual DbSet<Student> Students { get; set; }
 

@@ -8,7 +8,6 @@ namespace OlaCollegeV1.Colleges.Dto
     [AutoMapFrom(typeof(College))]
     public class CollegeDto : EntityDto<int>
     {
-        public string CollegeID { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
         public string Description { get; set; }

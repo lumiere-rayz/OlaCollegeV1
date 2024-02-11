@@ -13,8 +13,7 @@ namespace OlaCollegeV1.Students.Dto
         public string Address { get; set; }
         public string ProgramName { get; set; }
         public string DoB { get; set; }
-        public string CollegeID { get; set; }
-
+        public int CollegeId { get; set; }
         public bool IsActive { get; set; }
         ///CreateDto.cs.fields1///
 

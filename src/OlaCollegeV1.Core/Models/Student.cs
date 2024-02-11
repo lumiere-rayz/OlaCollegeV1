@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OlaCollegeV1.Models
 {
@@ -25,7 +26,9 @@ namespace OlaCollegeV1.Models
 
         public string DoB { get; set; }
 
-        public int CollegeID { get; set; }
+        [ForeignKey("College")]
+        public int CollegeId { get; set; }
+        public virtual College College { get; set; } // Navigation property back to College
 
         public bool IsActive { get; set; }
 
